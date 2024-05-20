@@ -21,9 +21,9 @@ function Parallax() {
       >
       <motion.h1 
         style={{y: yText}}
-        className="text-9xl mountain antialiased mb-20 z-30"> Code. Create. Connect. </motion.h1>
+        className="text-9xl mountain antialiased mb-96 z-30"> Code. Create. Connect. </motion.h1>
         <motion.div 
-          className="w-full h-full absolute z-40"
+          className="w-full h-screen absolute z-40"
           style = {{backgroundImage: 'url("/src/assets/mountains.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
@@ -31,9 +31,14 @@ function Parallax() {
           style = {{y: yBg,backgroundImage: 'url("/src/assets/planets.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
-          className="w-full h-full absolute z-10"
+          className="w-full  h-full absolute z-10 mb-10 overflow-auto"
           //If replaced y with x, then the image will move horizontally
           style = {{x: yBg, backgroundImage: 'url("/src/assets/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
+        ></motion.div>
+        <motion.div 
+          className="w-full  h-lvh absolute z-10 mb-10 overflow-auto overflow-x-hidden"
+          //If replaced y with x, then the image will move horizontally
+          style = {{backgroundImage: 'url("/src/assets/stars.png")',backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
     </div>
   )

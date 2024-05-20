@@ -7,6 +7,8 @@ import Technologies from "./components/Technologies";
 import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
 import Parallax from "./components/Parallax";
+import Computer from "./components/Computer";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,6 +26,7 @@ function App() {
         
         <section id="Home"><Navbar />
         <Hero /></section>
+        <section> <Computer /> </section>
         <section><Parallax /></section>
         <section id="About"><About /></section>
         <section id="Projects"> <Technologies /></section>
