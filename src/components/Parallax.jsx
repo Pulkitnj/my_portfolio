@@ -17,28 +17,23 @@ function Parallax() {
   //If target is 0, then y position will be 0% and if target is 1, then y position will be 100%
   return (
     <div 
-      className="mt-10 w-full h-screen flex text-center justify-center overflow-hidden" 
+      className="mt-10 w-full h-screen flex text-center justify-center" 
       >
       <motion.h1 
         style={{y: yText}}
         className="text-9xl mountain antialiased mb-96 z-30"> Code. Create. Connect. </motion.h1>
         <motion.div 
           className="w-full h-screen absolute z-40"
-          style = {{backgroundImage: 'url("/src/assets/mountains.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
+          style = {{ backgroundImage: 'url("/src/assets/mountains.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
           className="w-full h-full absolute z-20 mb-10"
           style = {{y: yBg,backgroundImage: 'url("/src/assets/planets.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
-          className="w-full  h-full absolute z-10 mb-10 overflow-auto"
+          className="w-full  h-full absolute z-10 mb-10 overflow-hidden"
           //If replaced y with x, then the image will move horizontally
-          style = {{x: yBg, backgroundImage: 'url("/src/assets/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
-        ></motion.div>
-        <motion.div 
-          className="w-full  h-lvh absolute z-10 mb-10 overflow-auto overflow-x-hidden"
-          //If replaced y with x, then the image will move horizontally
-          style = {{backgroundImage: 'url("/src/assets/stars.png")',backgroundSize: "cover", backgroundPosition: "bottom"}}
+          style = {{ backgroundImage: 'url("/src/assets/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
     </div>
   )
