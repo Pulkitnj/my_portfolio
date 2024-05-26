@@ -10,6 +10,7 @@ export default {
         gray: {
           200: "#D5DAE1"
         },
+        secondary: "#aaa6c3",
         black: {
           DEFAULT: "#000",
           500: "#1D2235"

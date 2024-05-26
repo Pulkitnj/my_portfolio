@@ -24,8 +24,10 @@ function App() {
 
       <div className=" container h-full mx-auto px-8 flex flex-col">
         
-        <section id="Home"><Navbar />
-        <Hero /></section>
+        <section id="Home">
+          <Navbar />
+          <Hero />
+        </section>
         <section> <Computer /> </section>
         <section><Parallax /></section>
         <section id="About"><About /></section>
