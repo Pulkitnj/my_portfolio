@@ -6,7 +6,7 @@ function Sidebar() {
     const items = ["Home", "About", "Projects", "Contact"];
     const variants = {
         open: {
-            width: '25%',
+            width: '15%',
             clipPath: "circle(1200px at 40px 40px)",
             transition: {
                 type: "spring",
@@ -43,7 +43,7 @@ function Sidebar() {
                             className="text-3xl text-black p-2  hover:text-4xl  rounded transition duration-300"
                             variants={{
                                 open: { y:0,opacity: 1 },
-                                closed: { y:50,opacity: 0 },
+                                closed: { y:0,opacity: 0 },
                             }}
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.7 }}
