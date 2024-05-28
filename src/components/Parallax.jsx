@@ -17,7 +17,7 @@ function Parallax() {
   //If target is 0, then y position will be 0% and if target is 1, then y position will be 100%
   return (
     <div 
-      className="mt-10 w-full h-screen flex text-center justify-center overflow-x-hidden" 
+      className="mt-10 w-full h-screen flex text-center justify-center " 
       >
       <motion.h1 
         style={{y: yText}}
@@ -33,7 +33,7 @@ function Parallax() {
         <motion.div 
           className="w-full  h-full absolute z-10 mb-10 overflow-hidden"
           //If replaced y with x, then the image will move horizontally
-          style = {{ backgroundImage: 'url("/parallax/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
+          style = {{backgroundImage: 'url("/parallax/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
     </div>
   )

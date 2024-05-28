@@ -26,8 +26,8 @@ const iconVariants = (duration) => ({
 
 function Technologies() {
   return (
-    <div className="h-screen border-b border-neutral-800">
-      <h1 className="my-20 text-center text-6xl">
+    <div className="h-full border-b border-neutral-800">
+      <h1 className="my-20 text-5xl sm:text-center sm:text-6xl">
         Techno
         <span className="text-neutral-500">logies </span>
       </h1>

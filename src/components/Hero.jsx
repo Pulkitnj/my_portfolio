@@ -18,7 +18,7 @@ const container = (delay) => ({
 
 function Hero() {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mg-35">
+    <div className="border-b h-full border-neutral-900 pb-4 lg:mg-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
@@ -62,7 +62,7 @@ function Hero() {
             </div>
         </div>
       </div>
-      <div className='absolute xs:bottom-10 bottom-32 left-2/4 flex justify-center items-center'>
+      <div className='relative flex justify-center items-center'>
         <a href='/'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

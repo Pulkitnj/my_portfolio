@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className=" h-screen border-b border-neutral-900 pb-4">
+    <div className=" h-full border-b border-neutral-900 pb-4">
       <h2 className="my-20 text-center text-6xl">
         About
         <span className=" text-neutral-500"> Me </span>
