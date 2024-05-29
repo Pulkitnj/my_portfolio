@@ -10,8 +10,9 @@ const container = (delay) => ({
     x:0,
     opacity: 1,
     transition: {
-      duration:0.5,
-      delay: delay
+      duration:0.8,
+      delay: delay,
+      ease: "easeOut"
     },
   },
 });
@@ -73,6 +74,7 @@ function Hero() {
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
+                ease: "easeOut"
               }}
               className='w-3 h-3 rounded-full bg-secondary mb-1'
             />
