@@ -6,7 +6,7 @@ function Sidebar() {
     const items = ["Home", "About", "Projects", "Contact"];
     const variants = {
         open: {
-            width: '15%',
+            width: '24%',
             clipPath: "circle(1200px at 40px 40px)",
             transition: {
                 type: "spring",

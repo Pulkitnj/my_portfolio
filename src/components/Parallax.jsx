@@ -13,25 +13,25 @@ function Parallax() {
   })
   //Can created different transitions for different elements
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "220%"])
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "80%"])
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"])
   //If target is 0, then y position will be 0% and if target is 1, then y position will be 100%
   return (
     <div 
-      className="mt-10 w-full h-screen flex text-center justify-center " 
+      className="mt-10 h-screen flex text-center justify-center overflow-hidden" 
       >
       <motion.h1 
         style={{y: yText}}
-        className="text-9xl mountain antialiased mb-96 z-30"> Code. Create. Connect. </motion.h1>
+        className="sm:text-9xl text-8xl mountain antialiased mb-96 z-30"> Code. Create. Connect. </motion.h1>
         <motion.div 
           className="w-full h-screen absolute z-40"
           style = {{ backgroundImage: 'url("/parallax/mountains.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
-          className="w-full h-full absolute z-20 mb-10"
+          className="h-full absolute z-20 mb-10"
           style = {{y: yBg,backgroundImage: 'url("/parallax/planets.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
         <motion.div 
-          className="w-full  h-full absolute z-10 mb-10 overflow-hidden"
+          className="w-full h-full absolute z-10 mb-10 overflow-hidden"
           //If replaced y with x, then the image will move horizontally
           style = {{backgroundImage: 'url("/parallax/stars.png")', backgroundSize: "cover", backgroundPosition: "bottom"}}
         ></motion.div>
