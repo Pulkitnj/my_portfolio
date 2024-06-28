@@ -18,9 +18,9 @@ function Sidebar() {
             width: '100px',
             clipPath: "circle(25px at 35px 45px)",
             transition: {
-                delay: 0.5,
+
                 type: "spring",
-                stiffness: 400,
+                stiffness: 300,
                 damping: 40,
             },
         },
