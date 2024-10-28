@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
 import Parallax from "./components/Parallax";
 import Computer from "./components/Computer";
+import { Projects } from "./components/Projects";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <section> <Computer /> </section>
         <section><Parallax /></section>
         <section id="About"><About /></section>
+        <Projects />
         <section id="Projects"> <Technologies /></section>
         <section id="Contact"><Contact /></section>
       </div>
