@@ -13,28 +13,28 @@ export function Projects() {
 export const products = [
   {
     title: "Paytm Project",
-    link: "https://gomoonbeam.com",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/websites/paytm.webp",
   },
   {
     title: "Medium",
-    link: "https://cursor.so",
+    link: "",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/websites/medium.webp",
   },
   {
     title: "Trekkers",
-    link: "https://userogue.com",
+    link: "https://trekkers.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "/websites/trekkers.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Travel Tinder",
+    link: "https://traveltinder.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/websites/traveltinder.png",
   },
   {
     title: "Editrix AI",
@@ -43,29 +43,29 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/editrix.png",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    title: "User Management",
+    link: "https://usermangemnt.netlify.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "/websites/usermanagement.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Todo App",
+    link: "https://mytodo69.netlify.app ",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "/websites/todo.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "Expense Tracker",
+    link: "https://expensenikalo.netlify.app",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "/websites/expensetracker.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Portfolio Website",
+    link: "https://pulkitjain.tech",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "/websites/portfolio.png",
   },
   {
     title: "SmartBridge",
